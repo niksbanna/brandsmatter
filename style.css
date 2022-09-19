@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    height: 200vh;
+}
+span {
+    color: #4978ff;
+}
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+.line-height {
+    line-height: 1em;
+}
+.banner {
+    background: url(bg.jpg);
+    color: #fff;
+    background-size: cover;
+}
+
+nav.sticky {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+nav.sticky .navbar-brand,
+nav.sticky .nav-link
+ {
+    color: #000;
+}
+.alpha {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.img {
+    position: relative;
+    max-width: 70px;
+    margin-bottom: 15px;
+}
+.middle {
+    padding-top: 250px;
+    margin-top: -200px;
+    min-height: 100vh;
+}
+.bg-work {
+    background: #4978ff;
+    min-height: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bg-work a, .bg-work a h4 {
+    font-weight: 700;
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+}
+.bg-work:hover {
+    background-color: #000;
+}
+.expert {
+    position: relative;
+    background: #000;
+    width: 250px;
+    min-height: 300px;
+    
+}
+.expert img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.expertCaption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    transition: .2;
+    opacity: 0;
+}
+.expertCaption:hover {
+    opacity: 1;
+}
+.expertCaption p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.expertCaption span {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+}
